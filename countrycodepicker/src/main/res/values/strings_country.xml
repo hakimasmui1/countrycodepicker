@@ -380,7 +380,7 @@
     <string name="country_honduras_code" translatable="false">hn</string>
     <string name="country_honduras_number" translatable="false">504</string>
 
-    <string name="country_hong_kong_name">Hong Kong</string>
+    <string name="country_hong_kong_name">Hong Kong, China</string>
     <string name="country_hong_kong_code" translatable="false">hk</string>
     <string name="country_hong_kong_number" translatable="false">852</string>
 
@@ -860,7 +860,7 @@
     <string name="country_syrian_arab_republic_code" translatable="false">sy</string>
     <string name="country_syrian_arab_republic_number" translatable="false">963</string>
 
-    <string name="country_taiwan_name">Taiwan</string>
+    <string name="country_taiwan_name">Taiwan, China</string>
     <string name="country_taiwan_code" translatable="false">tw</string>
     <string name="country_taiwan_number" translatable="false">886</string>
 

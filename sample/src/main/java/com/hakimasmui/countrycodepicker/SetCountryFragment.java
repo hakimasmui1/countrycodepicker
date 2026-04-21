@@ -1,4 +1,4 @@
-package com.rilixtech.countrycodepicker;
+package com.hakimasmui.countrycodepicker;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -11,8 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.rilixtech.widget.countrycodepicker.Country;
-import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
+import com.hakimasmui.widget.countrycodepicker.Country;
+import com.hakimasmui.widget.countrycodepicker.CountryCodePicker;
 
 
 /**

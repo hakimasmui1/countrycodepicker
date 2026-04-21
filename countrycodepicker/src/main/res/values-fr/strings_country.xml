@@ -101,7 +101,7 @@
   <string name="country_guyana_name">Guyane</string>
   <string name="country_haiti_name">Haïti</string>
   <string name="country_honduras_name">Honduras</string>
-  <string name="country_hong_kong_name">Hong Kong</string>
+  <string name="country_hong_kong_name">Hong Kong, China</string>
   <string name="country_hungary_name">Hongrie</string>
   <string name="country_iceland_name">Islande</string>
   <string name="country_india_name">Inde</string>
@@ -204,7 +204,7 @@
   <string name="country_sweden_name">Suède</string>
   <string name="country_switzerland_name">Suisse</string>
   <string name="country_syrian_arab_republic_name">République arabe syrienne</string>
-  <string name="country_taiwan_name">Taiwan, Province de Chine</string>
+  <string name="country_taiwan_name">Taiwan, Chine</string>
   <string name="country_tajikistan_name">Tadjikistan</string>
   <string name="country_tanzania_name">Tanzanie, République-Unie de</string>
   <string name="country_thailand_name">Thaïlande</string>

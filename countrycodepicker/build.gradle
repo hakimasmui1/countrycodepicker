@@ -1,17 +1,19 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven-publish'
 
-group = 'com.github.joielechong'
+group = 'com.github.hakimasmui'
 version = "2.4.2"
 def verCode = 242
 
 android {
+  namespace "com.hakimasmui.widget.countrycodepicker"
+
   compileSdkVersion 29
   buildToolsVersion "29.0.3"
 
   defaultConfig {
     minSdkVersion 14
-    targetSdkVersion 29
+    targetSdkVersion 35
     versionCode verCode
     versionName version
   }
@@ -29,6 +31,6 @@ dependencies {
 //  testImplementation 'junit:junit:4.12'
 //  api 'io.michaelrocks:libphonenumber-android:8.10.7'
 //  api 'io.michaelrocks:libphonenumber-android:8.10.16'
-  api 'io.michaelrocks:libphonenumber-android:8.12.5'
+  implementation 'io.michaelrocks:libphonenumber-android:9.0.28'
   implementation 'androidx.annotation:annotation:1.1.0'
 }

@@ -1,4 +1,4 @@
-package com.rilixtech.countrycodepicker;
+package com.hakimasmui.countrycodepicker;
 
 
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
+import com.hakimasmui.widget.countrycodepicker.CountryCodePicker;
 
 /**
  * A simple {@link Fragment} subclass.
