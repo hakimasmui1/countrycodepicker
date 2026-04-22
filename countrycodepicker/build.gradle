@@ -2,8 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 group = "com.github.hakimasmui1"
-version = "1.1.5"
-def verCode = 115
+version = "1.1.6"
+def verCode = 116
 
 android {
   namespace "com.hakimasmui.widget.countrycodepicker"

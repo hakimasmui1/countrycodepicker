@@ -72,21 +72,7 @@ public class CountryCodeArrayAdapter extends ArrayAdapter<Country> {
     viewHolder.tvCode.setVisibility(View.VISIBLE);
     viewHolder.llyFlagHolder.setVisibility(View.VISIBLE);
     Context ctx = viewHolder.tvName.getContext();
-    String name = country.getName();
-    String iso = country.getIso().toUpperCase();
-    String countryName;
-    String countryNameAndCode;
-    try {
-      countryName = getLocale(iso).getDisplayCountry();
-    } catch (NullPointerException exception) {
-      countryName = name;
-    }
-    if (mCountryCodePicker.isHideNameCode()) {
-      countryNameAndCode = countryName;
-    } else {
-      countryNameAndCode = ctx.getString(R.string.country_name_and_code, countryName, iso);
-    }
-    viewHolder.tvName.setText(countryNameAndCode);
+    viewHolder.tvName.setText(country.getName());
 
     if (mCountryCodePicker.isHidePhoneCode()) {
       viewHolder.tvCode.setVisibility(View.GONE);
