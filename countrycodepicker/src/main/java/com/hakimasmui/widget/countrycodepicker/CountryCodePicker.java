@@ -233,9 +233,6 @@ public class CountryCodePicker extends RelativeLayout {
   private void applyCustomPropertyOfDefaultCountryNameCode(TypedArray tar) {
     //default country
     mDefaultCountryNameCode = tar.getString(R.styleable.CountryCodePicker_ccp_defaultNameCode);
-    if (BuildConfig.DEBUG) {
-      Log.d(TAG, "mDefaultCountryNameCode from attribute = " + mDefaultCountryNameCode);
-    }
 
     if (mDefaultCountryNameCode == null || mDefaultCountryNameCode.isEmpty()) return;
 
@@ -1161,13 +1158,6 @@ public class CountryCodePicker extends RelativeLayout {
       return;
     }
 
-    if (BuildConfig.DEBUG) {
-      Log.d(TAG, "setPhoneNumberHint called");
-      Log.d(TAG, "mSelectedCountry.getIso() = " + mSelectedCountry.getIso());
-      Log.d(TAG,
-          "hint = " + mPhoneUtil.format(phoneNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL));
-    }
-
     String hint = mPhoneUtil.format(phoneNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL);
     //if (mRegisteredPhoneNumberTextView.getHint() != null) {
     //  mRegisteredPhoneNumberTextView.setHint("");
@@ -1291,11 +1281,9 @@ public class CountryCodePicker extends RelativeLayout {
           enableSetCountryByTimeZone(true);
         } else {
           setEmptyDefault(iso);
-          if (BuildConfig.DEBUG) Log.d(TAG, "isoNetwork = " + iso);
         }
       } else {
         setEmptyDefault(simCountryIso);
-        if (BuildConfig.DEBUG) Log.d(TAG, "simCountryIso = " + simCountryIso);
       }
     } catch (Exception e) {
       Log.e(TAG, "Error when getting sim country, error = " + e.toString());
@@ -1349,7 +1337,6 @@ public class CountryCodePicker extends RelativeLayout {
       if (mSetCountryByTimeZone) {
         TimeZone tz = TimeZone.getDefault();
 
-        if (BuildConfig.DEBUG) Log.d(TAG, "tz.getID() = " + tz.getID());
         List<String> countryIsos = CountryUtils.getCountryIsoByTimeZone(getContext(), tz.getID());
 
         if (countryIsos == null) {
