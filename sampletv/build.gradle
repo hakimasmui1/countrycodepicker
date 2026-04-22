@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-  namespace "com.rilixtech.countrycodepicker.sampletv"
+  namespace "com.hakimasmui.countrycodepicker.sampletv"
 
   compileSdkVersion 29
   buildToolsVersion "29.0.3"
 
   defaultConfig {
-    applicationId "com.rilixtech.countrycodepicker.sampletv"
+    applicationId "com.hakimasmui.countrycodepicker.sampletv"
     minSdkVersion 21
     targetSdkVersion 29
     versionCode 1
